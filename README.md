@@ -25,3 +25,4 @@ A dual-ESP32 robotics platform featuring live FPV video streaming, real-time tel
 * `Camera_ESP32/app_httpd.cpp`: Controls video streaming and camera HTTP routes.
 * `Camera_ESP32/board_config.h`: Hardware pin definitions for the AI Thinker camera model.
 * `Camera_ESP32/camera_index.h`: Hex array containing the compressed camera Web UI interface.
+* 'Camera_ESP32/Camera_ESP32.ino`: Main setup routine for the ESP32-CAM board. Initializes camera pin configurations and PSRAM settings, connects to the Wi-Fi network, and starts the HTTP camera server task.
